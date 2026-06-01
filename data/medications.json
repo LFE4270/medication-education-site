@@ -311,6 +311,171 @@
         "Store securely away from children and others",
         "Dispose of unused medication properly at a pharmacy or DEA take-back program"
       ]
+    }, 
+    {
+      "id": 10,
+      "name": "Amlodipine (Norvasc)",
+      "category": "Blood Pressure",
+      "icon": "💊",
+      "shortDescription": "Calcium channel blocker for blood pressure and angina",
+      "description": "Amlodipine is a calcium channel blocker that relaxes blood vessels and improves blood flow. It is used to treat high blood pressure and certain types of chest pain (angina).",
+      "uses": [
+        "Managing high blood pressure",
+        "Treating angina (chest pain)",
+        "Reducing risk of heart attack",
+        "Improving blood flow to the heart"
+      ],
+      "howToUse": "Take by mouth once daily with or without food. Take at the same time each day for best results. Swallow tablets whole.",
+      "dosage": "Adults: Initial dose 5 mg once daily. Usual maintenance dose 5-10 mg once daily. Maximum 10 mg per day.",
+      "sideEffects": [
+        "Swelling in feet or ankles",
+        "Dizziness",
+        "Headache",
+        "Flushed face",
+        "Fatigue"
+      ],
+      "seriousSideEffects": "Severe swelling, severe dizziness, fainting, chest pain, or shortness of breath. Seek immediate medical attention if these occur.",
+      "drugInteractions": "May interact with other blood pressure medications. Can interact with simvastatin (use with caution). Grapefruit juice may increase amlodipine levels.",
+      "precautions": [
+        "Do not use if you have severe aortic stenosis",
+        "Monitor blood pressure regularly",
+        "Avoid grapefruit and grapefruit juice",
+        "Do not suddenly stop taking this medication",
+        "Tell your doctor if you are pregnant or breastfeeding"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Atorvastatin (Lipitor)",
+      "category": "Cholesterol",
+      "icon": "💊",
+      "shortDescription": "Statin medication for lowering cholesterol",
+      "description": "Atorvastatin is a statin medication that reduces cholesterol production in the liver. It is used to lower cholesterol and triglycerides, reducing the risk of heart disease and stroke.",
+      "uses": [
+        "Lowering LDL cholesterol",
+        "Reducing triglycerides",
+        "Raising HDL cholesterol",
+        "Reducing risk of heart attack and stroke",
+        "Preventing heart disease"
+      ],
+      "howToUse": "Take by mouth once daily with or without food. Take at the same time each day, preferably in the evening. Swallow tablets whole.",
+      "dosage": "Adults: Initial dose 10-20 mg once daily. Typical range 10-80 mg once daily. Maximum 80 mg per day.",
+      "sideEffects": [
+        "Muscle pain or weakness",
+        "Headache",
+        "Nausea",
+        "Diarrhea",
+        "Constipation"
+      ],
+      "seriousSideEffects": "Muscle breakdown (rhabdomyolysis) causing severe muscle pain and dark urine. Liver damage. These are rare but serious. Seek immediate medical attention if you experience severe muscle pain, weakness, or dark urine.",
+      "drugInteractions": "Do not use with certain other medications that increase risk of muscle problems. Interacts with some antibiotics, antifungals, and other drugs. Tell doctor about all medications.",
+      "precautions": [
+        "Do not use if pregnant or breastfeeding",
+        "Avoid if you have active liver disease",
+        "Monitor liver function regularly",
+        "Report any muscle pain or weakness immediately",
+        "Maintain a heart-healthy diet"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Losartan (Cozaar)",
+      "category": "Blood Pressure",
+      "icon": "💊",
+      "shortDescription": "Angiotensin II receptor blocker for blood pressure",
+      "description": "Losartan is an angiotensin II receptor blocker (ARB) that relaxes blood vessels, allowing blood to flow more easily. It is used to treat high blood pressure and protect the kidneys in diabetic patients.",
+      "uses": [
+        "Managing high blood pressure",
+        "Protecting kidneys in diabetic patients",
+        "Reducing risk of stroke",
+        "Improving survival after heart attack",
+        "Reducing proteinuria in diabetic patients"
+      ],
+      "howToUse": "Take by mouth once daily with or without food. Take at the same time each day for best results. Swallow tablets whole.",
+      "dosage": "Adults: Initial dose 50 mg once daily. Usual maintenance dose 25-100 mg once daily. Maximum 100 mg per day.",
+      "sideEffects": [
+        "Dizziness",
+        "Fatigue",
+        "Headache",
+        "Dry cough (less common than with ACE inhibitors)",
+        "Back pain"
+      ],
+      "seriousSideEffects": "Severe allergic reactions (swelling of face/throat). Chest pain or shortness of breath. Fainting or severe dizziness. High potassium levels. Seek immediate medical attention if these occur.",
+      "drugInteractions": "Do not combine with ACE inhibitors without doctor approval. NSAIDs may reduce effectiveness. May interact with potassium supplements or potassium-sparing diuretics.",
+      "precautions": [
+        "Do not use if pregnant, especially second and third trimester",
+        "Monitor potassium levels regularly",
+        "Do not use potassium supplements unless directed by doctor",
+        "Do not suddenly stop taking this medication",
+        "Stay well-hydrated"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Docusate (Colace)",
+      "category": "Digestive Health",
+      "icon": "💊",
+      "shortDescription": "Stool softener for gentle constipation relief",
+      "description": "Docusate is a stool softener that helps water and fats penetrate hard stools. It makes bowel movements easier and is used to prevent or treat constipation.",
+      "uses": [
+        "Treating constipation",
+        "Softening stools",
+        "Easing bowel movements after childbirth",
+        "Helping patients who should avoid straining",
+        "Preventing constipation during medication use"
+      ],
+      "howToUse": "Take by mouth with a full glass of water. Can be taken with or without food. Results usually appear within 1-3 days.",
+      "dosage": "Adults: 50-500 mg per day in divided doses. Children: Dosage based on age. Start with lower dose and increase gradually if needed.",
+      "sideEffects": [
+        "Mild cramping",
+        "Diarrhea (if overdosed)",
+        "Throat irritation (with liquid form)",
+        "Rash (rare)"
+      ],
+      "seriousSideEffects": "Severe abdominal pain, persistent diarrhea, or signs of dehydration. Seek medical attention if these develop.",
+      "drugInteractions": "Minimal drug interactions. May interact with mineral oil. Generally safe with most other medications.",
+      "precautions": [
+        "Do not use if you have signs of appendicitis or bowel obstruction",
+        "Drink plenty of water to prevent dehydration",
+        "Not recommended for long-term daily use without doctor consultation",
+        "Consult doctor if constipation persists after one week",
+        "Safe during pregnancy and breastfeeding"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Aspirin",
+      "category": "Pain Relief",
+      "icon": "💊",
+      "shortDescription": "Pain reliever and blood thinner for pain and heart protection",
+      "description": "Aspirin is a nonsteroidal anti-inflammatory drug (NSAID) that relieves pain, reduces fever, and decreases inflammation. Low-dose aspirin is also used to prevent heart attacks and strokes.",
+      "uses": [
+        "Relieving minor aches and pains",
+        "Reducing fever",
+        "Reducing inflammation",
+        "Preventing heart attacks (low-dose)",
+        "Preventing strokes (low-dose)",
+        "Managing arthritis pain"
+      ],
+      "howToUse": "Take by mouth with food or milk to reduce stomach upset. Swallow tablets whole with a full glass of water. Do not crush or chew unless directed.",
+      "dosage": "Adults for pain: 325-650 mg every 4-6 hours as needed, not to exceed 3,000 mg per day. For heart protection: 75-325 mg once daily as directed by doctor.",
+      "sideEffects": [
+        "Stomach upset or heartburn",
+        "Nausea",
+        "Headache",
+        "Drowsiness",
+        "Rash"
+      ],
+      "seriousSideEffects": "Stomach bleeding or ulcers, especially with long-term use. Allergic reactions including severe rash. Increased bleeding risk. Reye's syndrome in children with viral illness. Seek medical attention if you experience black/tarry stools, vomiting blood, or severe abdominal pain.",
+      "drugInteractions": "Do not combine with other NSAIDs or blood thinners like warfarin without doctor approval. May interact with certain medications. Alcohol increases risk of stomach bleeding.",
+      "precautions": [
+        "Do not use if you have ulcers or bleeding disorders",
+        "Do not give to children with viral infections (Reye's syndrome risk)",
+        "Use with caution if you have asthma or heart disease",
+        "Avoid alcohol",
+        "Tell doctor about all medications you are taking",
+        "Do not use during last trimester of pregnancy without doctor approval"
+      ]
     }
   ]
 }
