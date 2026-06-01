@@ -1,0 +1,249 @@
+{
+  "medications": [
+    {
+      "id": 1,
+      "name": "Acetaminophen (Tylenol)",
+      "category": "Pain Relief",
+      "icon": "💊",
+      "shortDescription": "Over-the-counter pain reliever and fever reducer",
+      "description": "Acetaminophen is an over-the-counter medication used to relieve mild to moderate pain and reduce fever. It works by reducing substances in the body that cause pain and fever.",
+      "uses": [
+        "Relieving headaches",
+        "Reducing fever",
+        "Treating muscle aches",
+        "Managing minor arthritis pain",
+        "Relieving cold and flu symptoms"
+      ],
+      "howToUse": "Take by mouth with or without food. Swallow tablets whole with a full glass of water.",
+      "dosage": "Adults: 325-650 mg every 4-6 hours, not to exceed 3,000-4,000 mg per day. Children: Dosage based on weight.",
+      "sideEffects": [
+        "Nausea",
+        "Stomach upset",
+        "Rash (rare)"
+      ],
+      "seriousSideEffects": "Severe liver damage can occur with overdose or chronic use of high doses. Seek immediate medical attention if you experience yellowing of skin/eyes, dark urine, or severe abdominal pain.",
+      "drugInteractions": "May interact with warfarin and other blood thinners. Avoid alcohol as it increases risk of liver damage.",
+      "precautions": [
+        "Do not exceed recommended daily dose",
+        "Avoid if you have liver disease",
+        "Use with caution if you drink alcohol regularly",
+        "Tell doctor if you are pregnant or breastfeeding"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ibuprofen (Advil, Motrin)",
+      "category": "Pain Relief",
+      "icon": "💊",
+      "shortDescription": "Nonsteroidal anti-inflammatory drug (NSAID) for pain and inflammation",
+      "description": "Ibuprofen is an over-the-counter NSAID that reduces pain, fever, and inflammation. It blocks prostaglandins that cause pain and inflammation in the body.",
+      "uses": [
+        "Relieving headaches and migraines",
+        "Reducing fever",
+        "Treating menstrual cramps",
+        "Managing muscle and joint pain",
+        "Reducing inflammation from arthritis"
+      ],
+      "howToUse": "Take by mouth with food or milk to reduce stomach upset. Swallow tablets whole with water.",
+      "dosage": "Adults: 200-400 mg every 4-6 hours as needed, not to exceed 1,200 mg per day without doctor supervision.",
+      "sideEffects": [
+        "Stomach upset or heartburn",
+        "Dizziness",
+        "Headache",
+        "Nausea"
+      ],
+      "seriousSideEffects": "May cause stomach bleeding, particularly with long-term use. Increased risk of heart attack or stroke. Seek medical attention if you experience black/tarry stools, vomiting blood, or chest pain.",
+      "drugInteractions": "May interact with blood pressure medications, blood thinners, and other NSAIDs. Do not combine with other NSAIDs.",
+      "precautions": [
+        "Do not use if you have ulcers or bleeding disorders",
+        "Use with caution if you have heart disease or high blood pressure",
+        "Avoid during pregnancy, especially the third trimester",
+        "May cause drowsiness; avoid driving if affected"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Amoxicillin",
+      "category": "Antibiotic",
+      "icon": "💊",
+      "shortDescription": "Penicillin-type antibiotic used to treat bacterial infections",
+      "description": "Amoxicillin is a penicillin-type antibiotic that kills bacteria or stops their growth. It is used to treat various bacterial infections.",
+      "uses": [
+        "Treating ear infections",
+        "Fighting strep throat",
+        "Treating urinary tract infections",
+        "Managing pneumonia",
+        "Treating skin infections"
+      ],
+      "howToUse": "Take by mouth with or without food. Take exactly as prescribed for the full course, even if you feel better.",
+      "dosage": "Adults: Typically 250-500 mg every 8 hours or 500-875 mg every 12 hours. Children: Dosage based on weight.",
+      "sideEffects": [
+        "Diarrhea",
+        "Nausea",
+        "Vomiting",
+        "Rash (not serious)"
+      ],
+      "seriousSideEffects": "Severe allergic reactions including anaphylaxis (difficulty breathing, swelling of face/throat). Severe diarrhea (C. difficile infection). Seek immediate medical attention if these occur.",
+      "drugInteractions": "May reduce effectiveness of birth control pills. Can interact with methotrexate. May interact with warfarin (blood thinner).",
+      "precautions": [
+        "Do not use if you are allergic to penicillin or cephalosporins",
+        "Tell your doctor about all medications you are taking",
+        "Complete the full course of antibiotics",
+        "May cause false positive in pregnancy tests"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cetirizine (Zyrtec)",
+      "category": "Allergy",
+      "icon": "💊",
+      "shortDescription": "Antihistamine for allergy relief",
+      "description": "Cetirizine is a second-generation antihistamine that provides relief from allergy symptoms by blocking histamine receptors without significantly crossing the blood-brain barrier.",
+      "uses": [
+        "Relieving allergic rhinitis (hay fever) symptoms",
+        "Treating hives and itching",
+        "Managing seasonal allergies",
+        "Reducing allergy-related sneezing",
+        "Relieving itchy, watery eyes from allergies"
+      ],
+      "howToUse": "Take by mouth with or without food. Swallow tablets whole or dissolve on tongue.",
+      "dosage": "Adults: 5-10 mg once daily, preferably in the evening. Children 6-11 years: 5 mg once daily.",
+      "sideEffects": [
+        "Drowsiness",
+        "Headache",
+        "Dry mouth",
+        "Dizziness"
+      ],
+      "seriousSideEffects": "Severe allergic reactions (rare). Hallucinations or psychiatric effects (very rare). Seek medical attention if symptoms develop.",
+      "drugInteractions": "May interact with alcohol (increased drowsiness) and anticholinergic drugs. Generally safe with most other medications.",
+      "precautions": [
+        "Use with caution when driving due to potential drowsiness",
+        "Do not use if allergic to cetirizine or hydroxyzine",
+        "Tell your doctor if you have kidney disease",
+        "Avoid alcohol as it may increase drowsiness"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Diphenhydramine (Benadryl)",
+      "category": "Allergy",
+      "icon": "💊",
+      "shortDescription": "First-generation antihistamine and sleep aid",
+      "description": "Diphenhydramine is a first-generation antihistamine that crosses the blood-brain barrier, causing drowsiness. It's used for allergies and as a sleep aid.",
+      "uses": [
+        "Relieving allergy symptoms",
+        "Treating itching and hives",
+        "Managing motion sickness",
+        "Helping with sleep",
+        "Reducing symptoms of common cold"
+      ],
+      "howToUse": "Take by mouth with or without food. Do not chew tablets; swallow whole.",
+      "dosage": "Adults: 25-50 mg every 4-6 hours as needed, not to exceed 300 mg per day. Children 6-11 years: 12.5-25 mg every 4-6 hours.",
+      "sideEffects": [
+        "Drowsiness (desired effect for sleep)",
+        "Dizziness",
+        "Dry mouth",
+        "Blurred vision"
+      ],
+      "seriousSideEffects": "Severe allergic reactions (rare). Confusion or hallucinations (especially in elderly). Rapid heartbeat. Seek medical attention if concerning symptoms develop.",
+      "drugInteractions": "Do not combine with alcohol or other CNS depressants. May interact with anticholinergic medications. Not recommended with MAOI inhibitors.",
+      "precautions": [
+        "Use with caution when driving or operating machinery",
+        "Do not use in children under 2 years without doctor supervision",
+        "Avoid alcohol",
+        "Use with caution if you have glaucoma or heart problems"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Cough Syrup with Dextromethorphan (Robitussin)",
+      "category": "Cold & Flu",
+      "icon": "🧪",
+      "shortDescription": "Over-the-counter cough suppressant",
+      "description": "Dextromethorphan is an over-the-counter cough suppressant that reduces the urge to cough by acting on the cough center in the brain.",
+      "uses": [
+        "Suppressing dry coughs",
+        "Managing persistent coughs from colds",
+        "Reducing cough from upper respiratory infections",
+        "Helping with nighttime cough relief"
+      ],
+      "howToUse": "Take by mouth as directed on the package. Do not exceed recommended dose.",
+      "dosage": "Adults: 10-20 mg every 4-6 hours, not to exceed 120 mg per day. Children 6-11 years: 5-10 mg every 4-6 hours, not to exceed 60 mg per day.",
+      "sideEffects": [
+        "Drowsiness",
+        "Dizziness",
+        "Stomach upset",
+        "Headache"
+      ],
+      "seriousSideEffects": "Abuse potential at high doses (euphoric effects). Can cause serotonin syndrome if combined with certain medications. Seek medical attention if confusion or hallucinations occur.",
+      "drugInteractions": "Do not combine with MAOI inhibitors. May interact with SSRIs and other serotonergic drugs. Alcohol increases risk of side effects.",
+      "precautions": [
+        "Do not exceed recommended dose",
+        "Do not use for productive cough (cough with phlegm)",
+        "Avoid if you have had recent MAOI use",
+        "May cause drowsiness; do not drive if affected"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Pseudoephedrine (Sudafed)",
+      "category": "Cold & Flu",
+      "icon": "💊",
+      "shortDescription": "Decongestant for nasal and sinus congestion",
+      "description": "Pseudoephedrine is a decongestant that constricts blood vessels in the nasal passages, reducing swelling and congestion.",
+      "uses": [
+        "Relieving nasal congestion from colds",
+        "Reducing sinus pressure and congestion",
+        "Managing congestion from allergies",
+        "Providing relief for stuffy nose"
+      ],
+      "howToUse": "Take by mouth with or without food. Swallow tablets whole. Do not crush or chew.",
+      "dosage": "Adults: 30-60 mg every 4-6 hours, not to exceed 240 mg per day. Children 6-11 years: 30 mg every 4-6 hours, not to exceed 120 mg per day.",
+      "sideEffects": [
+        "Nervousness or anxiety",
+        "Insomnia",
+        "Increased heart rate",
+        "Tremor"
+      ],
+      "seriousSideEffects": "May cause elevated blood pressure, especially in people with hypertension. Increased heart rate or chest pain. Seek medical attention if these occur.",
+      "drugInteractions": "Do not combine with MAOI inhibitors or decongestants. May interact with blood pressure medications and some antidepressants.",
+      "precautions": [
+        "Do not use if you have high blood pressure without doctor approval",
+        "Avoid if you have heart disease or thyroid disease",
+        "Do not use if taking MAOI inhibitors",
+        "May increase nervousness or insomnia; avoid taking in evening"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Lisinopril",
+      "category": "Blood Pressure",
+      "icon": "💊",
+      "shortDescription": "ACE inhibitor for blood pressure management",
+      "description": "Lisinopril is an ACE inhibitor that relaxes blood vessels, allowing blood to flow more easily and reducing blood pressure.",
+      "uses": [
+        "Managing high blood pressure",
+        "Treating heart failure",
+        "Improving survival after heart attack",
+        "Reducing kidney problems in diabetics"
+      ],
+      "howToUse": "Take by mouth once daily, with or without food. Take at the same time each day for best results.",
+      "dosage": "Adults: Initial dose 10 mg once daily. Usual maintenance dose 20-40 mg once daily. Maximum 80 mg per day.",
+      "sideEffects": [
+        "Dry cough (common)",
+        "Dizziness or lightheadedness",
+        "Fatigue",
+        "Headache"
+      ],
+      "seriousSideEffects": "Severe allergic reactions (swelling of face/tongue/throat). Chest pain or shortness of breath. Fainting or severe dizziness. Seek immediate medical attention.",
+      "drugInteractions": "Do not combine with other blood pressure medications without doctor approval. NSAIDs may reduce effectiveness. Potassium supplements may cause high potassium levels.",
+      "precautions": [
+        "Do not use if pregnant or planning to become pregnant",
+        "Monitor blood pressure regularly",
+        "Report persistent dry cough to your doctor",
+        "Avoid potassium supplements unless directed by doctor",
+        "Do not suddenly stop taking this medication"
+      ]
+    }
+  ]
+}
