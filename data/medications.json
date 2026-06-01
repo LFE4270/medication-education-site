@@ -274,6 +274,43 @@
         "Monitor kidney function regularly",
         "May cause vitamin B12 deficiency; get levels checked yearly"
       ]
+    },
+    {
+      "id": 9,
+      "name": "Percocet (Oxycodone/Acetaminophen)",
+      "category": "Pain Relief",
+      "icon": "💊",
+      "shortDescription": "Prescription opioid pain reliever combined with acetaminophen",
+      "description": "Percocet is a prescription medication that combines oxycodone (an opioid pain reliever) with acetaminophen (a non-opioid pain reliever). It is used to treat moderate to moderately severe pain.",
+      "uses": [
+        "Treating moderate to moderately severe pain",
+        "Managing pain after surgery or injury",
+        "Controlling chronic pain conditions",
+        "Reducing severe headaches or migraines",
+        "Managing dental pain"
+      ],
+      "howToUse": "Take by mouth exactly as prescribed by your doctor. Take with or without food. Swallow tablets whole; do not crush, chew, or dissolve. Take only when you have pain.",
+      "dosage": "Adults: Typically 1 tablet every 6 hours as needed for pain. Dosage varies based on individual needs and opioid tolerance. Maximum acetaminophen should not exceed 3,000-4,000 mg per day.",
+      "sideEffects": [
+        "Dizziness or lightheadedness",
+        "Drowsiness",
+        "Nausea",
+        "Constipation",
+        "Itching"
+      ],
+      "seriousSideEffects": "Respiratory depression (slow or shallow breathing), which can be life-threatening. Severe allergic reactions. Liver damage from acetaminophen overdose. Opioid dependence and addiction with prolonged use. Seek immediate medical attention if you experience difficulty breathing, confusion, loss of consciousness, or severe allergic reactions.",
+      "drugInteractions": "Do not combine with alcohol or other CNS depressants (sedatives, tranquilizers). May interact with muscle relaxants, antihistamines, and medications that slow breathing. Do not use with MAOIs or certain antidepressants. Inform doctor of all medications.",
+      "precautions": [
+        "Prescription only - do not share with others",
+        "Risk of addiction and dependence with prolonged use",
+        "Do not drive or operate machinery until you know how it affects you",
+        "Avoid alcohol completely",
+        "Do not exceed prescribed dose",
+        "Do not use if pregnant or breastfeeding",
+        "Consult doctor before stopping this medication",
+        "Store securely away from children and others",
+        "Dispose of unused medication properly at a pharmacy or DEA take-back program"
+      ]
     }
   ]
 }
