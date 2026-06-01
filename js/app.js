@@ -4,10 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
     setupEventListeners();
 });
 
-// Fetch and load medications from the JSON file
+// Fetch and load medications from the JSON file with cache-busting
 async function loadMedications() {
     try {
-        const response = await fetch('data/medications.json');
+        // Add timestamp to URL to force fresh download
+        const timestamp = new Date().getTime();
+        const response = await fetch(`data/medications.json?v=${timestamp}`);
         const data = await response.json();
         window.allMedications = data.medications;
         displayMedications(window.allMedications);
