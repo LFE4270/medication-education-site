@@ -68,6 +68,7 @@
             font-family: inherit;
             font-size: 1rem;
             transition: border-color 0.3s ease;
+            box-sizing: border-box;
         }
 
         .form-group input:focus,
@@ -178,7 +179,7 @@
             </div>
 
             <!-- Contact Form -->
-            <form id="contactForm">
+            <form id="contactForm" action="https://formspree.io/f/xjgzqzka" method="POST">
                 <div class="form-group">
                     <label for="name">Name *</label>
                     <input type="text" id="name" name="name" required>
@@ -225,56 +226,34 @@
     </footer>
 
     <script>
-        // Handle form submission
-        document.getElementById('contactForm').addEventListener('submit', async function(e) {
-            e.preventDefault();
-
+        // Handle form submission with success/error messages
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
             const submitBtn = document.getElementById('submitBtn');
-            const successMessage = document.getElementById('successMessage');
-            const errorMessage = document.getElementById('errorMessage');
-
-            // Hide previous messages
-            successMessage.style.display = 'none';
-            errorMessage.style.display = 'none';
-
-            // Disable submit button
             submitBtn.disabled = true;
             submitBtn.textContent = 'Sending...';
+        });
 
-            try {
-                // Get form data
-                const formData = new FormData(this);
-
-                // Submit to Formspree
-                const response = await fetch('https://formspree.io/f/xjgzqzka', {
-                    method: 'POST',
-                    body: formData,
-                    headers: {
-                        'Accept': 'application/json'
-                    }
-                });
-
-                if (response.ok) {
-                    // Show success message
-                    successMessage.style.display = 'block';
-                    
-                    // Reset form
-                    document.getElementById('contactForm').reset();
-                    
-                    // Scroll to success message
-                    successMessage.scrollIntoView({ behavior: 'smooth' });
-                } else {
-                    // Show error message
-                    errorMessage.style.display = 'block';
-                }
-            } catch (error) {
-                console.error('Error:', error);
+        // Listen for form submission result
+        window.addEventListener('message', function(e) {
+            if (e.origin !== 'https://formspree.io') return;
+            
+            const form = document.getElementById('contactForm');
+            const successMessage = document.getElementById('successMessage');
+            const errorMessage = document.getElementById('errorMessage');
+            const submitBtn = document.getElementById('submitBtn');
+            
+            if (e.data.ok) {
+                successMessage.style.display = 'block';
+                errorMessage.style.display = 'none';
+                form.reset();
+                successMessage.scrollIntoView({ behavior: 'smooth' });
+            } else {
                 errorMessage.style.display = 'block';
-            } finally {
-                // Re-enable submit button
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Send Message';
+                successMessage.style.display = 'none';
             }
+            
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Send Message';
         });
     </script>
 </body>
