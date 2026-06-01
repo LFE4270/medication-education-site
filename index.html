@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medication Education Hub - Patient Information</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">💊 Medication Education Hub</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#medications">Medications</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Trusted Medication Information Source</h1>
+            <p>Easy-to-understand information about common medications for patient education</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Search and Filter Section -->
+        <section class="search-section">
+            <h2>Find Your Medication</h2>
+            
+            <div class="search-bar">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search by medication name..." 
+                    class="search-input"
+                >
+                <button id="searchBtn" class="search-btn">Search</button>
+            </div>
+
+            <div class="filter-section">
+                <h3>Filter by Category:</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All Medications</button>
+                    <button class="filter-btn" data-category="Pain Relief">Pain Relief</button>
+                    <button class="filter-btn" data-category="Antibiotic">Antibiotics</button>
+                    <button class="filter-btn" data-category="Allergy">Allergy</button>
+                    <button class="filter-btn" data-category="Cold & Flu">Cold & Flu</button>
+                    <button class="filter-btn" data-category="Blood Pressure">Blood Pressure</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Medications Grid -->
+        <section id="medications" class="medications-section">
+            <h2>Medications</h2>
+            <div id="medicationsGrid" class="medications-grid">
+                <!-- Medication cards will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- No Results Message -->
+        <div id="noResults" class="no-results" style="display: none;">
+            <p>No medications found. Try a different search or filter.</p>
+        </div>
+    </main>
+
+    <!-- Medication Detail Modal -->
+    <div id="medicationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Medication details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Medication Education Hub. This is for educational purposes only. Always consult with a healthcare professional.</p>
+            <p><strong>Disclaimer:</strong> This information is not a substitute for professional medical advice, diagnosis, or treatment.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
