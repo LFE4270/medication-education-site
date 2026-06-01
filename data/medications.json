@@ -476,6 +476,443 @@
         "Tell doctor about all medications you are taking",
         "Do not use during last trimester of pregnancy without doctor approval"
       ]
+    },
+    {
+      "id": 15,
+      "name": "Magnesium Oxide",
+      "category": "Digestive Health",
+      "icon": "💊",
+      "shortDescription": "Magnesium supplement and laxative",
+      "description": "Magnesium oxide is a mineral supplement used to treat magnesium deficiency and as a laxative to relieve occasional constipation. It works by drawing water into the intestines to soften stools.",
+      "uses": [
+        "Treating magnesium deficiency",
+        "Relieving constipation",
+        "Supplementing magnesium intake",
+        "Supporting heart and muscle function",
+        "Reducing muscle cramps"
+      ],
+      "howToUse": "Take by mouth with a full glass of water. Can be taken with or without food. As a laxative, typically take at bedtime or as directed.",
+      "dosage": "Adults: 400-800 mg daily as a supplement. For constipation: 400-4,000 mg in divided doses. Follow package instructions or doctor's advice.",
+      "sideEffects": [
+        "Diarrhea or loose stools",
+        "Mild cramping",
+        "Nausea",
+        "Gas or bloating"
+      ],
+      "seriousSideEffects": "High magnesium levels (rare with normal doses) causing weakness, muscle paralysis, or cardiac arrhythmias. Severe allergic reactions. Seek medical attention if symptoms develop.",
+      "drugInteractions": "May interfere with absorption of some antibiotics and other medications. Space doses apart from other medications by at least 2 hours.",
+      "precautions": [
+        "Do not use if you have kidney disease without doctor approval",
+        "Not recommended for long-term daily use as a laxative",
+        "May interact with bisphosphonates (osteoporosis medications)",
+        "Tell doctor about all medications you are taking",
+        "Adequate fluid intake is important"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Ondansetron (Zofran)",
+      "category": "Anti-Nausea",
+      "icon": "💊",
+      "shortDescription": "Anti-nausea medication for preventing and treating nausea and vomiting",
+      "description": "Ondansetron is a selective serotonin receptor antagonist that prevents and treats nausea and vomiting. It is commonly used after surgery and during cancer chemotherapy.",
+      "uses": [
+        "Preventing nausea and vomiting after surgery",
+        "Managing nausea during chemotherapy",
+        "Treating nausea from radiation therapy",
+        "Preventing post-operative nausea and vomiting",
+        "Treating severe nausea from gastroenteritis"
+      ],
+      "howToUse": "Take by mouth with or without food. Dissolving tablet form melts on tongue without water. Take as directed by doctor or as needed.",
+      "dosage": "Adults: 4-8 mg three times daily or 8 mg once or twice daily (extended-release). Dosage varies based on condition being treated.",
+      "sideEffects": [
+        "Headache",
+        "Constipation",
+        "Fatigue",
+        "Dizziness",
+        "Diarrhea"
+      ],
+      "seriousSideEffects": "Serotonin syndrome (rare, especially with other serotonergic drugs). Allergic reactions. QT prolongation (heart rhythm issues). Seek medical attention if experiencing confusion, muscle rigidity, or irregular heartbeat.",
+      "drugInteractions": "May interact with SSRIs and other serotonin-affecting medications. Apomorphine should not be used together. Tell doctor about all medications.",
+      "precautions": [
+        "Use with caution if you have liver disease",
+        "May cause headache; inform doctor if severe",
+        "Do not use if allergic to ondansetron",
+        "Tell doctor about history of heart problems",
+        "Safe in pregnancy for severe nausea/vomiting"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Norco (Hydrocodone/Acetaminophen)",
+      "category": "Pain Relief",
+      "icon": "💊",
+      "shortDescription": "Prescription opioid pain reliever with acetaminophen",
+      "description": "Norco is a combination of hydrocodone (an opioid pain reliever) and acetaminophen (a non-opioid pain reliever). It is used to treat moderate to moderately severe pain.",
+      "uses": [
+        "Treating moderate to moderately severe pain",
+        "Managing pain after surgery or injury",
+        "Controlling dental pain",
+        "Managing pain from chronic conditions",
+        "Reducing severe headache or migraine pain"
+      ],
+      "howToUse": "Take by mouth exactly as prescribed by your doctor. Take with or without food. Take only when you have pain. Do not crush, chew, or dissolve tablets.",
+      "dosage": "Adults: Typically 1-2 tablets every 4-6 hours as needed for pain. Maximum acetaminophen should not exceed 3,000-4,000 mg per day. Dosage varies by strength.",
+      "sideEffects": [
+        "Dizziness or lightheadedness",
+        "Drowsiness",
+        "Constipation",
+        "Nausea",
+        "Itching"
+      ],
+      "seriousSideEffects": "Respiratory depression (slow or shallow breathing), which can be life-threatening. Liver damage from acetaminophen overdose. Opioid dependence and addiction. Seek immediate medical attention if experiencing difficulty breathing, confusion, or loss of consciousness.",
+      "drugInteractions": "Do not combine with alcohol or other CNS depressants. May interact with muscle relaxants, antihistamines, and sedatives. Do not use with MAOIs.",
+      "precautions": [
+        "Prescription only - do not share with others",
+        "Risk of addiction and dependence with prolonged use",
+        "Do not drive or operate machinery until you know how it affects you",
+        "Avoid alcohol completely",
+        "Do not exceed prescribed dose",
+        "Do not use if pregnant or breastfeeding without doctor approval",
+        "Store securely away from children"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Furosemide (Lasix)",
+      "category": "Blood Pressure",
+      "icon": "💊",
+      "shortDescription": "Loop diuretic (water pill) for fluid reduction and blood pressure",
+      "description": "Furosemide is a loop diuretic that increases urine production to remove excess water and salt from the body. It is used to treat high blood pressure and fluid retention.",
+      "uses": [
+        "Treating high blood pressure",
+        "Managing fluid retention (edema) from heart, liver, or kidney disease",
+        "Reducing swelling in legs and feet",
+        "Improving breathing in heart failure",
+        "Managing pulmonary edema"
+      ],
+      "howToUse": "Take by mouth with or without food. Take at the same time each day, usually in the morning. Swallow tablets whole.",
+      "dosage": "Adults: Initial dose 20-40 mg once daily. Usual range 20-80 mg daily in divided doses. Maximum 600 mg per day.",
+      "sideEffects": [
+        "Dizziness or lightheadedness",
+        "Dehydration",
+        "Increased urination",
+        "Weakness or fatigue",
+        "Electrolyte imbalances"
+      ],
+      "seriousSideEffects": "Severe dehydration, electrolyte imbalances (low potassium, sodium), kidney damage, hearing loss (with high doses), severe dizziness or fainting. Seek immediate medical attention if these occur.",
+      "drugInteractions": "May interact with NSAIDs, lithium, and certain other medications. Increases potassium loss; monitor levels. Tell doctor about all medications.",
+      "precautions": [
+        "Monitor blood pressure regularly",
+        "Stay well-hydrated and drink adequate fluids",
+        "Monitor electrolyte levels (potassium, sodium)",
+        "Report any hearing changes immediately",
+        "Do not suddenly stop taking this medication",
+        "Avoid prolonged sun exposure (increased sun sensitivity)"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Torsemide (Demadex)",
+      "category": "Blood Pressure",
+      "icon": "💊",
+      "shortDescription": "Loop diuretic for fluid retention and blood pressure management",
+      "description": "Torsemide is a loop diuretic similar to furosemide that increases urine production to remove excess fluid. It is used to treat high blood pressure and fluid retention.",
+      "uses": [
+        "Treating high blood pressure",
+        "Managing fluid retention from heart disease",
+        "Reducing swelling and shortness of breath",
+        "Improving symptoms of heart failure",
+        "Treating edema from kidney or liver disease"
+      ],
+      "howToUse": "Take by mouth with or without food. Take at the same time each day, usually in the morning. Swallow tablets whole.",
+      "dosage": "Adults: Initial dose 5-10 mg once daily. Usual range 5-20 mg once daily. Maximum 200 mg per day.",
+      "sideEffects": [
+        "Dizziness or lightheadedness",
+        "Increased urination",
+        "Weakness or fatigue",
+        "Headache",
+        "Dehydration"
+      ],
+      "seriousSideEffects": "Severe electrolyte imbalances (low potassium), kidney damage, hearing loss, severe dehydration, severe dizziness or fainting. Seek immediate medical attention if these occur.",
+      "drugInteractions": "May interact with NSAIDs, lithium, and other diuretics. Enhances effects of other blood pressure medications. Tell doctor about all medications.",
+      "precautions": [
+        "Monitor electrolyte levels regularly",
+        "Stay well-hydrated",
+        "Monitor blood pressure regularly",
+        "Report hearing changes immediately",
+        "Do not suddenly stop taking this medication",
+        "May cause electrolyte imbalances; monitor symptoms"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Bumetanide (Bumex)",
+      "category": "Blood Pressure",
+      "icon": "💊",
+      "shortDescription": "Loop diuretic for managing fluid retention and blood pressure",
+      "description": "Bumetanide is a loop diuretic that increases urine production to remove excess fluid and salt. It is used to treat high blood pressure and fluid retention from various conditions.",
+      "uses": [
+        "Treating high blood pressure",
+        "Managing fluid retention and edema",
+        "Reducing swelling in heart failure patients",
+        "Improving breathing in pulmonary edema",
+        "Treating edema from kidney disease"
+      ],
+      "howToUse": "Take by mouth with or without food. Take at the same time each day, usually in the morning. Swallow tablets whole.",
+      "dosage": "Adults: Initial dose 0.5-1 mg once or twice daily. Usual range 0.5-2 mg per day. Maximum 10 mg per day.",
+      "sideEffects": [
+        "Dizziness",
+        "Increased urination",
+        "Weakness",
+        "Headache",
+        "Muscle cramps"
+      ],
+      "seriousSideEffects": "Severe electrolyte imbalances, dehydration, kidney damage, hearing loss, severe allergic reactions. Seek immediate medical attention if symptoms develop.",
+      "drugInteractions": "May interact with NSAIDs, lithium, and other diuretics. Potentiates other blood pressure medications. Tell doctor about all medications.",
+      "precautions": [
+        "Monitor electrolyte levels regularly",
+        "Stay well-hydrated",
+        "Monitor for signs of dehydration",
+        "Report hearing changes immediately",
+        "Do not suddenly stop this medication",
+        "May cause potassium depletion; monitor levels"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Valsartan (Diovan)",
+      "category": "Blood Pressure",
+      "icon": "💊",
+      "shortDescription": "Angiotensin II receptor blocker for blood pressure",
+      "description": "Valsartan is an angiotensin II receptor blocker (ARB) that relaxes blood vessels, lowering blood pressure. It is used to treat hypertension and heart failure.",
+      "uses": [
+        "Managing high blood pressure",
+        "Treating heart failure",
+        "Improving survival after heart attack",
+        "Reducing risk of cardiovascular death",
+        "Protecting the heart and blood vessels"
+      ],
+      "howToUse": "Take by mouth with or without food. Take at the same time each day for best results. Swallow tablets whole.",
+      "dosage": "Adults: Initial dose 80 mg once daily. Usual maintenance dose 80-320 mg once daily. Maximum 320 mg per day.",
+      "sideEffects": [
+        "Dizziness",
+        "Fatigue",
+        "Headache",
+        "Cough (less common than ACE inhibitors)",
+        "Back pain"
+      ],
+      "seriousSideEffects": "Severe allergic reactions (swelling of face/throat). Chest pain or shortness of breath. Fainting. High potassium levels. Kidney damage. Seek immediate medical attention if these occur.",
+      "drugInteractions": "Do not combine with ACE inhibitors without doctor approval. NSAIDs may reduce effectiveness. May interact with potassium supplements or potassium-sparing diuretics.",
+      "precautions": [
+        "Do not use if pregnant, especially second and third trimester",
+        "Monitor potassium levels regularly",
+        "Monitor kidney function",
+        "Do not use potassium supplements unless directed by doctor",
+        "Do not suddenly stop taking this medication"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Olmesartan (Benicar)",
+      "category": "Blood Pressure",
+      "icon": "💊",
+      "shortDescription": "Angiotensin II receptor blocker for high blood pressure",
+      "description": "Olmesartan is an angiotensin II receptor blocker that relaxes blood vessels to lower blood pressure. It is used to treat hypertension either alone or with other medications.",
+      "uses": [
+        "Managing high blood pressure",
+        "Reducing risk of stroke and heart attack",
+        "Protecting the heart and kidneys",
+        "Improving cardiovascular outcomes"
+      ],
+      "howToUse": "Take by mouth with or without food. Take at the same time each day for best results. Swallow tablets whole.",
+      "dosage": "Adults: Initial dose 20 mg once daily. Usual range 20-40 mg once daily. Maximum 40 mg per day.",
+      "sideEffects": [
+        "Dizziness",
+        "Fatigue",
+        "Headache",
+        "Back pain",
+        "Diarrhea"
+      ],
+      "seriousSideEffects": "Severe allergic reactions. Chest pain or shortness of breath. Fainting or severe dizziness. High potassium levels. Kidney failure. Sprue-like enteropathy (rare but serious GI condition). Seek immediate medical attention if these occur.",
+      "drugInteractions": "Do not combine with ACE inhibitors without doctor approval. NSAIDs may reduce effectiveness. May interact with potassium supplements or potassium-sparing diuretics.",
+      "precautions": [
+        "Do not use if pregnant, especially second and third trimester",
+        "Monitor potassium and kidney function regularly",
+        "Do not use potassium supplements unless directed by doctor",
+        "Report severe or persistent diarrhea immediately",
+        "Do not suddenly stop taking this medication"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Hydrochlorothiazide (HCTZ)",
+      "category": "Blood Pressure",
+      "icon": "💊",
+      "shortDescription": "Thiazide diuretic for blood pressure and fluid management",
+      "description": "Hydrochlorothiazide is a thiazide diuretic that increases urine production to remove excess fluid and salt. It is used to treat high blood pressure and fluid retention.",
+      "uses": [
+        "Treating high blood pressure",
+        "Managing fluid retention and edema",
+        "Reducing swelling from heart, liver, or kidney disease",
+        "Treating diabetes insipidus",
+        "Preventing kidney stones"
+      ],
+      "howToUse": "Take by mouth with or without food. Take at the same time each day, usually in the morning. Swallow tablets whole.",
+      "dosage": "Adults: 12.5-50 mg once daily. Usual dose 25 mg once daily. Maximum 100 mg per day.",
+      "sideEffects": [
+        "Dizziness",
+        "Increased urination",
+        "Weakness or fatigue",
+        "Headache",
+        "Muscle cramps"
+      ],
+      "seriousSideEffects": "Severe electrolyte imbalances (low potassium), kidney damage, severe allergic reactions, pancreatitis, gout attacks, severe dizziness or fainting. Seek immediate medical attention if these occur.",
+      "drugInteractions": "May interact with NSAIDs, lithium, and potassium supplements. Enhances effects of other blood pressure medications. Tell doctor about all medications.",
+      "precautions": [
+        "Monitor electrolyte levels regularly",
+        "Monitor blood pressure regularly",
+        "Stay well-hydrated",
+        "May increase blood sugar; monitor if diabetic",
+        "May trigger gout attacks; tell doctor if history of gout",
+        "Avoid prolonged sun exposure (photosensitivity)"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Spironolactone (Aldactone)",
+      "category": "Blood Pressure",
+      "icon": "💊",
+      "shortDescription": "Potassium-sparing diuretic and aldosterone antagonist",
+      "description": "Spironolactone is a potassium-sparing diuretic and aldosterone antagonist that helps remove excess fluid while retaining potassium. It is used to treat high blood pressure, heart failure, and fluid retention.",
+      "uses": [
+        "Treating high blood pressure",
+        "Managing heart failure",
+        "Reducing fluid retention (edema)",
+        "Treating hormonal acne (in women)",
+        "Managing primary aldosteronism"
+      ],
+      "howToUse": "Take by mouth with food to reduce stomach upset. Take at the same time each day. Swallow tablets whole.",
+      "dosage": "Adults: 25-100 mg once daily for blood pressure. 12.5-50 mg daily for heart failure. Doses vary based on condition.",
+      "sideEffects": [
+        "Dizziness",
+        "Headache",
+        "Nausea",
+        "Irregular menstrual periods",
+        "Breast enlargement or tenderness (gynecomastia)"
+      ],
+      "seriousSideEffects": "High potassium levels (hyperkalemia) which can cause heart rhythm problems. Severe allergic reactions. Kidney failure. Seek immediate medical attention if experiencing weakness, irregular heartbeat, or severe abdominal pain.",
+      "drugInteractions": "Do not combine with ACE inhibitors or NSAIDs without doctor approval. May interact with potassium supplements and other potassium-sparing medications. Can increase lithium levels.",
+      "precautions": [
+        "Do not use if you have high potassium levels or severe kidney disease",
+        "Monitor potassium levels regularly",
+        "Do not use potassium supplements unless directed by doctor",
+        "Avoid high-potassium foods (bananas, oranges, salt substitutes)",
+        "Do not suddenly stop taking this medication",
+        "Tell doctor if you plan to become pregnant"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Promethazine (Phenergan)",
+      "category": "Anti-Nausea",
+      "icon": "💊",
+      "shortDescription": "Antihistamine and anti-nausea medication",
+      "description": "Promethazine is a first-generation antihistamine and anticholinergic agent used to treat allergies, nausea, vomiting, and as a sedative. It causes significant drowsiness.",
+      "uses": [
+        "Relieving allergy symptoms",
+        "Preventing and treating nausea and vomiting",
+        "Treating motion sickness",
+        "Helping with sleep",
+        "Reducing itching from hives or allergic reactions"
+      ],
+      "howToUse": "Take by mouth with or without food. Swallow tablets whole. Dissolve tablets on tongue if using sublingual form.",
+      "dosage": "Adults: 12.5-50 mg at bedtime or every 4-6 hours as needed. Children: Dosage based on age and weight.",
+      "sideEffects": [
+        "Drowsiness (common and desired effect)",
+        "Dizziness",
+        "Dry mouth",
+        "Blurred vision",
+        "Constipation"
+      ],
+      "seriousSideEffects": "Severe allergic reactions. Severe drowsiness and loss of consciousness (especially in children). Respiratory depression. Blood problems (agranulocytosis). Neuroleptic malignant syndrome (rare). Seek immediate medical attention if these occur.",
+      "drugInteractions": "Do not combine with alcohol or other CNS depressants. May interact with anticholinergic medications. Not recommended with MAOI inhibitors.",
+      "precautions": [
+        "Use with extreme caution in children under 2 years",
+        "Do not drive or operate machinery; causes significant drowsiness",
+        "Avoid alcohol",
+        "Use with caution if you have breathing problems",
+        "May cause dry mouth; stay hydrated",
+        "Tell doctor about all medications you are taking"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Hydroxyzine HCl (Atarax)",
+      "category": "Anti-Anxiety",
+      "icon": "💊",
+      "shortDescription": "Antihistamine and anxiolytic for anxiety and itching",
+      "description": "Hydroxyzine HCl is an antihistamine with anxiolytic and anticholinergic properties used to treat anxiety, tension, and itching. It is less sedating than promethazine.",
+      "uses": [
+        "Treating anxiety and tension",
+        "Managing itching from hives or allergies",
+        "Reducing anxiety before surgery or procedures",
+        "Treating alcohol withdrawal symptoms",
+        "Helping with sleep (mild sedative)"
+      ],
+      "howToUse": "Take by mouth with or without food. Swallow tablets whole. Take exactly as directed by your doctor.",
+      "dosage": "Adults for anxiety: 50-100 mg three to four times daily. For itching: 25-50 mg three to four times daily. Maximum 400 mg per day.",
+      "sideEffects": [
+        "Drowsiness",
+        "Dizziness",
+        "Dry mouth",
+        "Headache",
+        "Tremor"
+      ],
+      "seriousSideEffects": "Severe allergic reactions. Severe drowsiness or loss of consciousness. Respiratory depression. Neuroleptic malignant syndrome (rare). Seek immediate medical attention if these occur.",
+      "drugInteractions": "May interact with alcohol and other CNS depressants. Enhances effects of central nervous system depressing agents. Do not combine with MAOIs.",
+      "precautions": [
+        "Do not drive or operate machinery until effects are known",
+        "Avoid alcohol completely",
+        "Use with caution if you have breathing problems",
+        "Not recommended for use during pregnancy without doctor approval",
+        "May cause dry mouth; stay hydrated",
+        "Tell doctor about all medications"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Hydroxyzine Pamoate (Vistaril)",
+      "category": "Anti-Anxiety",
+      "icon": "💊",
+      "shortDescription": "Antihistamine anxiolytic for anxiety and itching (pamoate salt)",
+      "description": "Hydroxyzine pamoate is an antihistamine with anxiolytic properties. It is the pamoate salt form of hydroxyzine, used to treat anxiety, itching, and for sedation before surgery.",
+      "uses": [
+        "Treating anxiety and emotional tension",
+        "Managing itching from allergies or hives",
+        "Reducing pre-operative anxiety",
+        "Assisting with alcohol withdrawal symptoms",
+        "Mild sedative for sleep"
+      ],
+      "howToUse": "Take by mouth with or without food. Swallow capsules whole; do not open or chew. Take exactly as prescribed.",
+      "dosage": "Adults for anxiety: 50-100 mg three to four times daily. For itching: 25-50 mg three to four times daily. Maximum 400 mg per day.",
+      "sideEffects": [
+        "Drowsiness",
+        "Dizziness",
+        "Dry mouth",
+        "Headache",
+        "Nausea"
+      ],
+      "seriousSideEffects": "Severe allergic reactions. Severe drowsiness or unconsciousness. Respiratory depression. Neuroleptic malignant syndrome (very rare). Seek immediate medical attention if symptoms develop.",
+      "drugInteractions": "May interact with alcohol and CNS depressants. Increases effects of other sedating medications. Do not use with MAOIs.",
+      "precautions": [
+        "Do not drive or operate machinery; causes drowsiness",
+        "Avoid alcohol",
+        "Use with caution if you have respiratory conditions",
+        "Do not open capsules; swallow whole",
+        "Tell doctor if you are pregnant or breastfeeding",
+        "Inform doctor about all other medications"
+      ]
     }
   ]
 }
