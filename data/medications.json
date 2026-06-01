@@ -244,34 +244,36 @@
         "Avoid potassium supplements unless directed by doctor",
         "Do not suddenly stop taking this medication"
       ]
-    },
+    }
     {
-  "id": 9,
-  "name": "Metformin",
-  "category": "Blood Sugar",
-  "icon": "💊",
-  "shortDescription": "Medication for managing type 2 diabetes",
-  "description": "Metformin is an oral medication that helps control blood sugar levels in people with type 2 diabetes. It works by decreasing glucose production in the liver and improving insulin sensitivity.",
-  "uses": [
-    "Managing type 2 diabetes",
-    "Reducing blood sugar levels",
-    "Preventing complications of diabetes",
-    "Sometimes used for weight management"
-  ],
-  "howToUse": "Take by mouth with food to reduce stomach upset. Swallow tablets whole.",
-  "dosage": "Adults: 500 mg twice daily initially, may increase to 1000-1500 mg daily. Children: Dosage based on age and weight.",
-  "sideEffects": [
-    "Nausea or vomiting",
-    "Diarrhea",
-    "Metallic taste in mouth",
-    "Stomach upset"
-  ],
-  "seriousSideEffects": "Lactic acidosis (rare but serious). Vitamin B12 deficiency with long-term use. Seek immediate medical attention if you experience difficulty breathing, muscle pain, or unusual tiredness.",
-  "drugInteractions": "May interact with contrast dyes used in imaging studies. Can affect kidney function medications. Alcohol may increase risk of lactic acidosis.",
-  "precautions": [
-    "Do not use if you have severe kidney disease",
-    "Hold medication before surgery or imaging with contrast dye",
-    "Monitor kidney function regularly",
-    "May cause vitamin B12 deficiency; get levels checked yearly"
+      "id": 9,
+      "name": "Metformin",
+      "category": "Blood Sugar",
+      "icon": "💊",
+      "shortDescription": "Medication for managing type 2 diabetes",
+      "description": "Metformin is an oral medication that helps control blood sugar levels in people with type 2 diabetes. It works by decreasing glucose production in the liver and improving insulin sensitivity.",
+      "uses": [
+        "Managing type 2 diabetes",
+        "Reducing blood sugar levels",
+        "Preventing complications of diabetes",
+        "Sometimes used for weight management"
+      ],
+      "howToUse": "Take by mouth with food to reduce stomach upset. Swallow tablets whole.",
+      "dosage": "Adults: 500 mg twice daily initially, may increase to 1000-1500 mg daily. Children: Dosage based on age and weight.",
+      "sideEffects": [
+        "Nausea or vomiting",
+        "Diarrhea",
+        "Metallic taste in mouth",
+        "Stomach upset"
+      ],
+      "seriousSideEffects": "Lactic acidosis (rare but serious). Vitamin B12 deficiency with long-term use. Seek immediate medical attention if you experience difficulty breathing, muscle pain, or unusual tiredness.",
+      "drugInteractions": "May interact with contrast dyes used in imaging studies. Can affect kidney function medications. Alcohol may increase risk of lactic acidosis.",
+      "precautions": [
+        "Do not use if you have severe kidney disease",
+        "Hold medication before surgery or imaging with contrast dye",
+        "Monitor kidney function regularly",
+        "May cause vitamin B12 deficiency; get levels checked yearly"
+      ]
+    }
   ]
 }
