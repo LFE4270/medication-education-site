@@ -233,6 +233,12 @@ body {
     background-color: #8b5cf6;
 }
 
+}
+
+.card-category.cholesterol {
+    background-color: #3b82f6;
+}
+
 .card-category.cold {
     background-color: #06b6d4;
 }
